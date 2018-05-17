@@ -21,7 +21,7 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void run()
             {
-                Intent intent =  new  Intent (IntroActivity.this,SignupActivity.class);
+                Intent intent =  new  Intent (IntroActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
